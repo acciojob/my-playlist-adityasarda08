@@ -1,46 +1,44 @@
+/* BODY */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+}
 
-        /* Body style */
-        body {
-            background-color: rgb(204, 204, 204);
-            font-family: Arial, sans-serif;
-        }
+/* HEADINGS */
+h1 {
+    text-align: center;
+}
 
-        /* Headings */
-        h1, h2 {
-            text-align: center;
-        }
+h2 {
+    text-align: center;
+}
 
-        /* Playlist */
-        ul {
-            padding: 10;
-        }
+/* LINKS */
+a {
+    text-decoration-line: none;
+    color: black;
+}
 
-        li {
-            list-style-type: none;
-            margin: 8px 0;
-        }
+/* LIST */
+li {
+    list-style-type: none;
+}
+
+/* PLAYLIST BOX */
 .playlist-box {
     background-color: rgb(255, 255, 255);
     padding: 15px;
     border-radius: 10px;
-    width: 300px;      /* box width */
-    margin: 20px auto; /* centers the box */
+    width: 300px;
+    margin: 20px auto;
 }
 
-
-        a {
-            text-decoration-line: none;
-            color: black;
-            font-size: 16px;
-        }
-
-        /* Player containers */
-        .player_one,
-        .player_two {
-            background-color: rgb(255, 255, 255);
-            padding: 15px;
-            border-radius: 10px;
-            width: fit-content;
-            margin: 20px auto;
-        }
-    
+/* PLAYER CONTAINERS */
+.player_one,
+.player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+}
